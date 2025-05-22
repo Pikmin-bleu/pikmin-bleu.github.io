@@ -51,6 +51,9 @@ header {
 #name a {
   color: white;
 }
+#name a:hover {
+  color: grey;
+}
 
 main {
     /* display: flex;
