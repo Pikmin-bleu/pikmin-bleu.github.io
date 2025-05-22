@@ -56,17 +56,18 @@ header {
 }
 
 main {
-    /* display: flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:space-around;
     flex-wrap: wrap; /* specifying that elements inside the box
     must go to the next line instead of continue on forever */
 
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     align-items: top;
-    justify-items: center;
+    justify-items: center; */
+    
     gap: 10px;
 
     padding-left: 2vw;
@@ -87,7 +88,7 @@ main {
 
 .piece {
     display: block;
-    height: 400px;
+    width: 400px;
     justify-self: center;
     align-self: center;
 }
@@ -187,6 +188,7 @@ header a {
 
 .piece {
   width: 90vw;
+
 }
 
 }
