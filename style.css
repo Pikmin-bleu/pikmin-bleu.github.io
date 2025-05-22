@@ -67,6 +67,7 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     align-items: top;
     justify-items: center; */
+    
     /* Grids are scary! Use them at your own risk. They are the preferred display property for grids, but you can get around using display:flex for your
     grid like designs.
     This code above for grids is meant to replace the display:flex section and will create a grid that will shrink rows depending on the website
