@@ -67,6 +67,11 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     align-items: top;
     justify-items: center; */
+    /* Grids are scary! Use them at your own risk. They are the preferred display property for grids, but you can get around using display:flex for your
+    grid like designs.
+    This code above for grids is meant to replace the display:flex section and will create a grid that will shrink rows depending on the website
+    window's size. Math's involved. I didn't manage to figure out how it works.*/
+    
     gap: 10px;
 
     padding-left: 2vw;
@@ -107,7 +112,8 @@ footer {
     background-color: white;
 
     width: 100vw;
-    height: 20vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 #links {
