@@ -48,6 +48,9 @@ header {
     background-color: black;
     color: white;
 }
+#name a {
+  color: white;
+}
 
 main {
     /* display: flex;
