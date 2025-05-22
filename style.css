@@ -67,13 +67,10 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     align-items: top;
     justify-items: center; */
-    
     gap: 10px;
 
     padding-left: 2vw;
     padding-right: 2vw;
-
-    position: relative;
 
     text-wrap: wrap;
 }
