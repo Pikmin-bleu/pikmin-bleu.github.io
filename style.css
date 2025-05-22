@@ -60,7 +60,7 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content:space-around;
-    flex-wrap: wrap; /* specifying that elements inside the box
+    flex-wrap:wrap; /* specifying that elements inside the box
     must go to the next line instead of continue on forever */
 
     /* display: grid;
@@ -81,6 +81,14 @@ main {
     background-size: cover;
     background-position: center;
     height: 90vh;
+}
+
+#statement {
+  width: 47vw;
+}
+
+#cv {
+  width: 47vw;
 }
 
 .piece {
@@ -186,6 +194,14 @@ header a {
 .piece {
   width: 90vw;
 
+}
+
+#statement {
+  width: inherit;
+}
+
+#cv {
+  width: inherit;
 }
 
 }
