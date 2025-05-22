@@ -73,6 +73,8 @@ main {
     padding-right: 2vw;
 
     position: relative;
+
+    overflow: scroll;
 }
 
 #landing {
